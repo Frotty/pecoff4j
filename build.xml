@@ -25,6 +25,7 @@
 				<include name="**/*.java"/>
 			</fileset>
 		</jar>
+		<delete dir="build"/>
 		<zip destfile="${release.dir}/${release.name}-${release.version}.zip">
 			<fileset dir="${release.dir}/${release.name}-${release.version}">
 				<include name="**/*"/>
